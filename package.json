@@ -1,0 +1,16 @@
+{
+  "name": "js-polling-node-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build -w web -w server",
+    "start": "npm run start -w web -w server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ]
+}
